@@ -11,3 +11,91 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+
+
+
+.App{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+body{
+  background-color: #c7bca8;
+}
+.internet{
+  margin: 0;
+}
+hr{
+  height: 10px;
+  background-color:#fbbfc3 ;
+  color: #fbbfc3;
+  
+}
+.App{
+  background-image:url("https://www.moi-malish.ru/wa-data/public/shop/products/03/60/26003/images/42716/42716.970.jpg");
+  background-image:url("https://phonoteka.org/uploads/posts/2022-02/1645115176_19-phonoteka-org-p-trava-gazon-fon-19.jpg");
+  background-image:url("https://avatars.mds.yandex.net/get-marketpic/1585113/piccd3d4dd44634ea2326e3b6a8f2d2a9ba/orig");
+  min-height: 1000px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.head{
+  
+  text-align: center;
+  color: grey;
+  text-shadow: .7px .7px #614158;
+  
+}
+.block{
+  background-color: 
+  #c0b6a1;
+  padding: 20px;
+}
+h1{
+  margin: 0;
+  font-family: 'Alegreya', serif;
+  letter-spacing: 4px;
+  font-size: 65px;
+  font-weight: bold;
+  text-shadow: 1px 1px #fe7178;
+
+}
+.cart{
+  margin-top: 15px;
+}
+
+.colorSelected{
+  background-color: #ec868b;
+}
+.color:hover{
+  background-color: #fbbfc3;
+}
+.color{
+  cursor: pointer;
+  padding: 5px;
+  margin: 3px;
+}
+.dot{
+  letter-spacing: 4px;
+}
+.plus, .minus{
+  border: 3px solid #ec868b;
+  border-radius: 5px;
+  margin: 10px;
+  width: 22px;
+  color: #fe7178;
+  font-weight: bold;
+}
+.incart{
+  width: 170px;
+  padding: 3px;
+  font-size: 16px;
+  border: 5px solid #fe7178;
+  border-radius: 5px;
+  color: #fe7178;
+  text-shadow: .5px .5px gray;
+}
